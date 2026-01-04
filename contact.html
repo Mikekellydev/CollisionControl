@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Collision Control</title>
+  <meta name="description" content="Contact Collision Control to schedule a conversation and request a tailored evaluation packet for your city.">
+  <link rel="canonical" href="https://collisioncontrol.net/contact.html">
+  <link rel="preload" href="/css/main.css" as="style">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/theme.orb.css" id="themeStylesheet">
+  <link rel="icon" href="/pix/favicon.png">
+</head>
+
+<body class="site contact-page theme-orb" style="--page-bg: url('/pix/background.contact.jpg');">
+<div class="page">
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="/index.html" aria-label="Collision Control Home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-text-main">Collision Control</span>
+          <span class="brand-text-sub">Preemption and priority systems for safer response corridors</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav">
+        <span class="sr-only">Open menu</span>
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <nav id="siteNav" class="site-nav" role="navigation" aria-label="Primary">
+        <a class="nav-link " href="/index.html">Home</a>
+        <a class="nav-link " href="/solutions.html">Solutions</a>
+        <a class="nav-link " href="/how-it-works.html">How It Works</a>
+        <a class="nav-link " href="/results.html">Results</a>
+        <a class="nav-link " href="/resources.html">Resources</a>
+        <a class="nav-link " href="/company.html">Company</a>
+        <a class="nav-link is-active" href="/contact.html">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <a class="btn btn-primary" href="/contact.html#schedule">Schedule a conversation</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main" role="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-main">
+          <h1>Schedule a conversation</h1>
+          <p class="lede">Tell us about your corridor, your fleet mix, and your critical destinations. We will respond with a clear pilot approach and a tailored resource packet.</p>
+          <div class="pill-row"><span class="pill">City leadership</span><span class="pill">Traffic engineering</span><span class="pill">Public safety</span></div>
+          <div class="hero-actions"><a class="btn btn-primary" href="#schedule">Jump to form</a><a class="btn btn-outline" href="/resources.html">Open resources</a></div>
+        </div>
+        <aside class="hero-side" aria-label="Quick facts">
+          <h2>Designed for cities</h2>
+          <ul class="checklist">
+            <li><span class="check"></span> Local control focused, not cellular dependent</li>
+            <li><span class="check"></span> Clear, safe progression through critical intersections</li>
+            <li><span class="check"></span> Built for field realities and operations teams</li>
+          </ul>
+          <a class="btn btn-secondary" href="/resources.html">Open resources</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section ">
+      <div class="container">
+        <h2>Contact form</h2>
+        
+        <div id="schedule"></div>
+        <form class="form" data-contact-form novalidate>
+          <div class="form-grid">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div>
+              <label for="role">Role</label>
+              <select id="role" name="role" required>
+                <option value="">Select one</option>
+                <option>City leadership</option>
+                <option>Traffic engineering</option>
+                <option>Signal maintenance</option>
+                <option>Fire</option>
+                <option>EMS</option>
+                <option>Police</option>
+                <option>Transit</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div>
+              <label for="city">City or agency</label>
+              <input id="city" name="city" type="text" autocomplete="organization" required>
+            </div>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Example: We have a highway exit corridor to our hospital with 6 signalized intersections. We want a pilot approach and a resource packet." required></textarea>
+          </div>
+
+          <div class="hero-actions">
+            <button class="btn btn-primary" type="submit">Send message</button>
+            <a class="btn btn-secondary" href="/resources.html">Open resources</a>
+          </div>
+
+          <div id="formSuccess" class="alert alert-success" role="status" tabindex="-1" hidden>
+            Message received. We will respond soon with next steps.
+          </div>
+          <div id="formError" class="alert alert-error" role="alert" tabindex="-1" hidden>
+            Please complete the required fields.
+          </div>
+        </form>
+        <p class="muted" style="color: rgba(229,231,235,0.70); margin-top: 10px;">Replace this demo form handler with your EmailOctopus embed or backend endpoint when ready.</p>
+        
+      </div>
+    </section>
+</main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-row">
+        <div class="footer-brand">
+          <div class="footer-title">Collision Control</div>
+          <div class="footer-sub">Local control solutions designed for emergency response corridors.</div>
+        </div>
+        <div class="footer-links" aria-label="Footer navigation">
+          <a href="/index.html">Home</a>
+<a href="/solutions.html">Solutions</a>
+<a href="/how-it-works.html">How It Works</a>
+<a href="/results.html">Results</a>
+<a href="/resources.html">Resources</a>
+<a href="/company.html">Company</a>
+<a href="/contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-row footer-meta">
+        <div>© 2026 Collision Control</div>
+        <div class="footer-actions">
+          <button class="linklike" type="button" data-theme="orb" aria-label="Use standard theme">Theme: Orb</button>
+          <button class="linklike" type="button" data-theme="xmas" aria-label="Use holiday theme">Holiday</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="/js/site.js" defer></script>
+</body>
+</html>
